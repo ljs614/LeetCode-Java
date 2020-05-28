@@ -1,0 +1,10 @@
+package com.ljs.prob;
+
+import com.leetcode.construct.ListNode;
+
+public class AddTwoNumbers {
+	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+		ListNode ans = new ListNode();
+		return l1;
+	}
+}
