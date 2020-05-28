@@ -1,0 +1,19 @@
+package com.ljs.prob;
+
+public class ZigzagConversion {
+	public String convert(String s, int numRows) {
+		String[] ans = new String[s.length()];
+		int index = 0;
+		int step = 1;
+		for(int i=0; i<s.length(); i++) {
+			if(ans[index] == null) {
+				ans[index] = "";
+			}
+			ans[index]+=s.charAt(i)+"";
+		}
+		
+		return String.join("", ans);
+	}
+}
+
+

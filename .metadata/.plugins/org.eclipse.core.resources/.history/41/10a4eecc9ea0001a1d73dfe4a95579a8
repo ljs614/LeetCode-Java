@@ -1,0 +1,15 @@
+package com.ljs.prob;
+
+public class ZigzagConversion {
+	public String convert(String s, int numRows) {
+		String[] temp = new String[numRows];
+		for(int i=0; i<s.length(); i++) {
+			int x = i%numRows;
+			if(temp[x] == null) {
+				temp[x] = "";
+			}
+			temp[x]+=s.charAt(i)+"";
+		}
+		return String.join("", temp);
+	}
+}

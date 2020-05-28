@@ -1,0 +1,24 @@
+package com.ljs.prob;
+
+public class ZigzagConversion {
+	public String convert(String s, int numRows) {
+		String ans = "";
+		for(int i=0; i<numRows; i++) {
+			int step = (numRows - 1) * 2;
+			int step1 = step - i*2;
+			int step2 = step - step1;
+			int index = i;
+			String temp = "";
+			while(index<s.length()) {
+				temp+=s.charAt(index)+"";
+				if(temp.length()%2==0) {
+					index+=step2;
+				} else {					
+					index +=step1;
+				}
+			}
+			ans+=temp
+		}
+	}
+}
+

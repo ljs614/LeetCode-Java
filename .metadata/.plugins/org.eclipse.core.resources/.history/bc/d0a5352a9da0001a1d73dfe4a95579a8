@@ -1,0 +1,8 @@
+package com.ljs.prob;
+
+public class ZigzagConversion {
+	public String convert(String s, int numRows) {
+		int[][] temp = new int[4][];
+		return null;
+	}
+}

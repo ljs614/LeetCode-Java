@@ -1,0 +1,9 @@
+package com.ljs.prob;
+
+public class ZigzagConversion {
+	public String convert(String s, int numRows) {
+		String[] ans = new String[s.length()];
+		return ans.toString();
+	}
+}
+

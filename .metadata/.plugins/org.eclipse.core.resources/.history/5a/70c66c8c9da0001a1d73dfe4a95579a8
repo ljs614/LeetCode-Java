@@ -1,0 +1,11 @@
+package com.ljs.prob;
+
+public class ZigzagConversion {
+	public String convert(String s, int numRows) {
+		String[] temp = new String[numRows];
+		for(int i=0; i<s.length(); i++) {
+			int x
+		}
+		return null;
+	}
+}
