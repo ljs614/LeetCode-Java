@@ -1,0 +1,15 @@
+package com.ljs.prob;
+
+public class ReverseInteger {
+	public int reverse(int x) {
+		String temp = String.valueOf(x);
+		int result = 1;
+		if(temp.charAt(0)=='-') {
+			result = -1;
+			temp = temp.substring(1);
+		}
+		
+	
+		return 0;
+	}
+}

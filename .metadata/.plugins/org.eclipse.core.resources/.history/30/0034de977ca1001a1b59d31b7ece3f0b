@@ -1,0 +1,21 @@
+package com.ljs.prob;
+
+public class ReverseInteger {
+	public int reverse(int x) {
+        String s = String.valueOf(x);
+		String temp = "";
+		int result = 1;
+		for(int i= s.length()-1; i>=0;i--) {
+            if(s.charAt(i)>='0'){
+             temp += s.charAt(i)+"";    
+            } else {
+            	result=-1;
+            }
+		}
+		
+		System.out.println(Integer.MAX_VALUE);
+		
+	
+		return result;
+	}
+}

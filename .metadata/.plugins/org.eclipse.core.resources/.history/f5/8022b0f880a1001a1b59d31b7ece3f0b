@@ -1,0 +1,15 @@
+package com.ljs.etc;
+
+public class E1 {
+//	input 3
+//	ouput 123
+//	      132
+//	      213
+//	      231
+//	      312
+//	      321
+	
+	public void permutation(int n) {
+		
+	}
+}

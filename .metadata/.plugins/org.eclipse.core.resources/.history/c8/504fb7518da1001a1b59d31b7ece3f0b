@@ -1,0 +1,23 @@
+package com.ljs.etc;
+
+public class E1 {
+// 재귀라는데 ....
+//	input 3
+//	output 123
+//	       132
+//	       213
+//	       231
+//	       312
+//	       321
+	
+	
+	public void solution(int n) {
+		
+		int[] arr = new int[n];
+		
+		for(int i=0; i<n; i++) {
+			arr[i]=i+1;
+		}
+	}
+	
+}

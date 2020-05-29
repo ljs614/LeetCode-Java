@@ -1,0 +1,24 @@
+package com.ljs.prob;
+
+public class ReverseInteger {
+	public int reverse(int x) {
+		String s = String.valueOf(x);
+		int end = 0;
+		int negative = 1;
+		if(s.charAt(0)=='-') {
+			end = 1;
+			negative = -1;
+		}
+		String ans = "";
+		for(int i= s.length()-1; i>=end;i--) {
+			ans += s.charAt(i)+"";
+		}
+		int result = 0;
+		try {
+			result = Integer.parseInt(ans) * negative;
+		} catch(Exception e) {
+			return 0;
+		}
+		return result;
+	}
+}

@@ -1,0 +1,13 @@
+package com.ljs.prob;
+
+public class ReverseInteger {
+	public int reverse(int x) {
+		String s = String.valueOf(x);
+		int start = 0;
+		int negative = 1;
+		if(s.charAt(0)=='-') {
+			
+		}
+		return 0;
+	}
+}

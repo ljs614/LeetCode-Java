@@ -1,0 +1,14 @@
+package com.ljs.prob;
+
+public class ReverseInteger {
+	public int reverse(int x) {
+        String s = String.valueOf(x);
+		String temp = "";
+		
+		
+		
+		return 0;
+	}
+}
+
+	

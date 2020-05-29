@@ -1,0 +1,20 @@
+package com.ljs.prob;
+
+public class ReverseInteger {
+	public int reverse(int x) {
+        String s = String.valueOf(x);
+		String ans = "";
+		long result = 0;
+		boolean isNegative = false;
+		for(int i= s.length()-1; i>=0;i--) {
+            if(s.charAt(i)>='0'){
+             ans += s.charAt(i)+"";    
+            } else {
+            	isNegative=true;
+            }
+		}
+	
+		int a = Integer.MIN_VALUE -1;
+		return (int)result;
+	}
+}
