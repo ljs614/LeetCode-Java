@@ -1,0 +1,9 @@
+package com.ljs.prob;
+
+public class MaxArea {
+
+    public int maxArea(int[] height) {
+        
+    	return 0;
+    }
+}

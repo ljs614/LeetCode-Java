@@ -1,0 +1,50 @@
+package com.ljs.prob;
+
+public class MyAtoI {
+    public int myAtoi(String str) {
+    	int x = -1;
+    	boolean isNegative = false;
+    	boolean isSign = false;
+    	boolean isInt = true;
+    	int MAX = Integer.MAX_VALUE-7;
+    	int dNum = 1000000000;
+    	String temp = "";
+    	
+    	for(int i=0; i<str.length(); i++) {
+    		char c = str.charAt(i);
+    		if(c==' ') {
+    			if(x>-1) {
+    				break;
+    			}
+    			continue;
+    		}else if(c=='+') {
+    			if(isSign) {
+    				break;
+    			}
+    			isSign = true;
+    			continue;
+    		}else if(c=='-') {
+    			if(isSign) {
+    				break;
+    			}
+    			isSign = true;
+    			isNegative = true;
+    			continue;
+    		}else if(c>='0' && c<='9') {
+    			temp+=c+"";
+    		}else {
+    			break;
+    		}
+    		
+    	}
+    	if(temp.length()>10) {
+    		if(isNegative) {
+    			return Integer.MIN_VALUE;
+    		}
+    		return Integer.MAX_VALUE;
+    	}else {
+    		
+    	}
+        return 0;
+    }
+}

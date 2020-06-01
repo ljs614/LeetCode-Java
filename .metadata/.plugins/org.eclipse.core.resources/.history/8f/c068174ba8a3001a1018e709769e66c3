@@ -1,0 +1,15 @@
+package com.ljs.main;
+
+import com.ljs.etc.E1;
+import com.ljs.prob.MyAtoI;
+import com.ljs.prob.ReverseInteger;
+import com.ljs.prob.ZigzagConversion;
+
+public class Main {
+	public static void main(String[] args) {
+		MyAtoI m = new MyAtoI();
+		int result = m.myAtoi("4223231232");
+		System.out.println(result);
+	}
+}
+

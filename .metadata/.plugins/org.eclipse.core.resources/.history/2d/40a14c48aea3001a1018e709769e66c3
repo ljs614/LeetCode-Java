@@ -1,0 +1,25 @@
+package com.ljs.prob;
+
+public class MaxArea {
+
+    public int maxArea(int[] height) {
+        int max = 0;
+        int LEN = height.length;
+        for(int i=0; i<LEN-1; i++) {
+        	for(int j=i+1; j<LEN; j++){
+        		int area = 0;
+        		int l = 0;
+        		if(height[i]>height[j]) {
+        			l=height[i];
+        		} else {
+        			l=height[j];
+        		}
+        		area = l*(i-j);
+        		if(max<area) {
+        			max = area;
+        		}
+        	}
+        }
+    	return max;
+    }
+}
