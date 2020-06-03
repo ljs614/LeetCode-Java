@@ -2,13 +2,25 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.ljs.prob.AddTwoNumbers"/>
 <fullyQualifiedTypeName name="com.ljs.prob.AddTwoNumbers.ListNode"/>
-<fullyQualifiedTypeName name="com.leetcode.construct.ListNode"/>
 <fullyQualifiedTypeName name="com.ljs.prob.ZigzagConversion"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.ljs.prob.ReverseInteger"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="com.ljs.etc.E1"/>
+<fullyQualifiedTypeName name="com.ljs.prob.MyAtoI"/>
+<fullyQualifiedTypeName name="com.ljs.prob.MaxArea"/>
+<fullyQualifiedTypeName name="com.ljs.prob.LogestCommonPrefix"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.leetcode.construct.TreeNode"/>
+<fullyQualifiedTypeName name="com.ljs.prob.ThreeSum"/>
+<fullyQualifiedTypeName name="java.util.BitSet"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.leetcode.construct.ListNode"/>
 </qualifiedTypeNameHistroy>

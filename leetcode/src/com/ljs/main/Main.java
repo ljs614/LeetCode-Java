@@ -1,16 +1,17 @@
 package com.ljs.main;
 
-import com.ljs.etc.E1;
-import com.ljs.prob.MaxArea;
-import com.ljs.prob.MyAtoI;
-import com.ljs.prob.ReverseInteger;
-import com.ljs.prob.ZigzagConversion;
+import java.util.List;
+
+import com.ljs.prob.LetterCombinations;
+import com.ljs.prob.ThreeSum;
 
 public class Main {
 	public static void main(String[] args) {
-		MaxArea m = new MaxArea();
-		int[] arr = {1,8,6,2,5,4,8,3,7};
-		System.out.println(m.maxArea(arr));
+		LetterCombinations l = new LetterCombinations();
+		List<String> list = l.letterCombinations("");
+		for(String s:list) {
+			System.out.println(s);
+		}
 	}
 }
 
