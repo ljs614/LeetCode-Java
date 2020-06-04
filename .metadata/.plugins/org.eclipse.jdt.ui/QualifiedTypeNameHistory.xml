@@ -11,16 +11,18 @@
 <fullyQualifiedTypeName name="com.ljs.prob.MyAtoI"/>
 <fullyQualifiedTypeName name="com.ljs.prob.MaxArea"/>
 <fullyQualifiedTypeName name="com.ljs.prob.LogestCommonPrefix"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.leetcode.construct.TreeNode"/>
 <fullyQualifiedTypeName name="com.ljs.prob.ThreeSum"/>
 <fullyQualifiedTypeName name="java.util.BitSet"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.leetcode.construct.ListNode"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.ljs.prob.LetterCombinations"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.ljs.june2020.Week1_3rd"/>
 </qualifiedTypeNameHistroy>
